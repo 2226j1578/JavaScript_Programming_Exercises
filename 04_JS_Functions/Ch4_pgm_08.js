@@ -24,3 +24,26 @@ displayMenu();
  *    Run the program
  *
  */
+
+
+var displayMenu;
+
+displayMenu = function () {
+	console.log("Please choose an option:");
+	console.log("(1) Print log");
+	console.log("(2) Upload file");
+	console.log("(9) Quit");
+};
+
+displayMenu();
+
+var displayMenu = function () {
+    console.log("Please choose an option:");
+    console.log("(1) Print log");
+    console.log("(2) Upload file");
+    console.log("(3) Delete file"); // New option
+    console.log("(4) Rename file"); // New option
+    console.log("(9) Quit");
+};
+
+displayMenu();
