@@ -50,3 +50,53 @@ showPlayerInfo("Dax", "The Old Library", 40);
  *    for logging a blank line to the console.
  *
  */
+
+var showPlayerInfo;
+var showPlayerName;
+var showPlayerHealth;
+var showPlayerPlace;
+var showLine;
+var showBlankLine;
+
+showPlayerName = function (playerName) {
+    console.log(playerName);
+};
+
+showPlayerHealth = function (playerName, playerHealth) {
+    console.log(playerName + " has health " + playerHealth);
+};
+
+showPlayerPlace = function (playerName, playerPlace) {
+    console.log(playerName + " is in " + playerPlace);
+};
+
+// Function to log a line of dashes
+showLine = function () {
+    console.log("----------------------------");
+};
+
+// Function to log a blank line
+showBlankLine = function () {
+    console.log("");
+};
+
+// Updated showPlayerInfo function
+showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+    showBlankLine();
+
+    showPlayerName(playerName);
+
+    showLine();
+
+    showPlayerPlace(playerName, playerPlace);
+    showPlayerHealth(playerName, playerHealth);
+
+    showLine();
+    showBlankLine();
+};
+
+// Calling the showPlayerInfo function
+showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
+showPlayerInfo("Dax", "The Old Library", 40);
+
+
