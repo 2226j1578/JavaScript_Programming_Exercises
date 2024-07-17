@@ -26,3 +26,13 @@ book = {
  *    and try steps 1 and 2 again.
  *
  */
+
+
+var book;
+var bookName; // Declare a variable to hold the book name
+
+bookName = "The Adventures of Tom Sawyer"; // Assign a string value to bookName
+
+book = {
+    title: bookName // Create an object 'book' with 'title' property assigned from 'bookName'
+};
