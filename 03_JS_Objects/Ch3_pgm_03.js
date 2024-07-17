@@ -23,3 +23,23 @@ console.log(book);
  * 3) Log book2 to the console.
  *
  */
+
+
+var book;
+
+book = {
+    title : "The Hobbit",
+    author : "J. R. R. Tolkien",
+    published : 1937
+};
+
+console.log(book);
+
+var book2 = {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    published: 1960
+};
+
+// Log book2 to the console
+console.log(book2);
