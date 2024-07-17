@@ -26,3 +26,16 @@ console.log("Way to go!");
  * 4) Display a message of congratulations
  *
  */
+
+
+
+var score;
+score = 100;
+console.log("Your score was " + score);
+
+console.log("Successful splat!!!");
+score = score + 100;
+console.log("New score: " + score);
+
+console.log("Congratulations!");
+
