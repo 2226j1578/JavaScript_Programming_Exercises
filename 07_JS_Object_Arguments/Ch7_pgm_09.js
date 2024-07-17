@@ -22,3 +22,21 @@ console.log(message.substr(charIndex, 3));
  *    'oo' in the word 'Moon' of the message string.
  *
  */
+
+var message = "We choose to go to the Moon!";
+
+var charIndex = message.indexOf("M");
+
+console.log(message.substr(charIndex, 3));
+
+var startIndex = message.indexOf("go");  // Find index of 'go' in the string
+console.log(startIndex);  // Output: 13
+
+// Extract 'go' from the message
+console.log(message.substr(startIndex, 2));  // Output: "go"
+
+var chooseIndex = message.indexOf("choose");  // Find index of 'choose' in the string
+console.log(message.substr(chooseIndex, 6));  // Output: "choose"
+
+var moonIndex = message.lastIndexOf("oo");  // Find index of 'oo' in the string
+console.log(moonIndex);  // Output: 28
