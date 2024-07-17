@@ -27,3 +27,27 @@ console.log(book.author);
  *    are available interactively via the console.
  *
  */
+
+
+
+var book;
+
+book = {
+  title     : "The Hobbit",
+  author    : "J. R. R. Tolkien",
+  published : 1937
+};
+
+console.log(book.title);    // Logs the title property of the book object
+console.log(book.author);   // Logs the author property of the book object
+
+// Further Adventures
+// 1) Log the published property to the console.
+console.log(book.published);    // Logs the published property of the book object
+
+// 2) Add a second book.
+var secondBook = {
+  title     : "Harry Potter and the Philosopher's Stone",
+  author    : "J.K. Rowling",
+  published : 1997
+};
