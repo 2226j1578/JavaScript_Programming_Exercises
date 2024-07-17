@@ -29,3 +29,18 @@ console.log(score);
  *    the new value of your variable.
  *
  */
+
+
+
+var score;
+score = 100;
+console.log(score); // Outputs: 100
+
+score = 200; // Step 1: Change the value assigned to score
+console.log(score); // Outputs: 200
+
+var score2; // Step 2: Declare a second variable
+score2 = 300; // Step 3: Assign a value to score2
+console.log(score2); // Step 4: Display score2
+score2 = 400; // Step 5: Alter the value of score2
+console.log(score2); // Step 6: Display the new value of score2
