@@ -34,3 +34,15 @@ showPlayerHealth("Dax", 40);
  *    it uses the healthInfo variable.
  *
  */
+
+var showPlayerHealth;
+
+showPlayerHealth = function (playerName, playerHealth) {
+    console.log(playerName + " has health " + playerHealth);
+};
+
+showPlayerHealth("Kandra", 50);
+showPlayerHealth("Dax", 40);
+
+showPlayerHealth("John", 60);
+showPlayerHealth("Alice", 30);
