@@ -25,3 +25,23 @@ sayHello();
  *    of "Hello World!" one by one down the page
  *
  */
+
+
+var sayHello;
+
+sayHello = function () {
+	console.log("Hello World!");
+};
+
+sayHello();
+sayHello();
+sayHello();
+
+var printLetters = function () {
+    var message = "Hello World!";
+    for (var i = 0; i < message.length; i++) {
+        console.log(message[i]);
+    }
+};
+
+printLetters();
