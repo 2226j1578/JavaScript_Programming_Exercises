@@ -29,3 +29,10 @@ sayHello = function () {
  * 4) Run the program.
  *
  */
+
+var sayHello;
+
+sayHello = function () {
+    console.log("Hello World!");
+};
+sayHello();
