@@ -41,3 +41,31 @@ showMovieInfo();
  *    What happens when you call showMovieInfo now?
  *
  */
+
+var movie1;
+var showMovieInfo;
+var movie;
+var movie2 = {
+    title: "The Dark Knight",
+    actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
+    directors: "Christopher Nolan"
+};
+
+movie1 = {
+    title: "Inside Out",
+    actors: "Amy Poehler, Bill Hader",
+    directors: "Pete Doctor, Ronaldo Del Carmen"
+};
+
+showMovieInfo = function () {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+};
+
+// Assign movie2 (populated object) to movie
+movie = movie2;
+
+showMovieInfo();
