@@ -14,3 +14,9 @@ var score;
  * 3) Declare two more variables.
  *
  */
+
+
+var score;
+var message;
+var name;  
+ 
