@@ -25,3 +25,24 @@ showPlayerName("Dax");
  *    of letters in the player's name.
  *
  */
+
+
+var showPlayerName;
+
+showPlayerName = function (playerName) {
+    console.log(playerName);
+};
+
+showPlayerName("Kandra");
+showPlayerName("Dax");
+
+var showNameLength = function (playerName) {
+    var length = playerName.length;
+    console.log("The player's name '" + playerName + "' has " + length + " letters.");
+};
+
+// Testing the showNameLength function
+showNameLength("Kandra");
+showNameLength("Dax");
+showNameLength("John");
+showNameLength("Alice Johnson");
