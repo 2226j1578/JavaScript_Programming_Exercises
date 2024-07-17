@@ -45,3 +45,17 @@ console.log(getPlayerName("Kandra"));
  * "
  *
  */
+
+var getPlayerName;
+
+getPlayerName = function (playerName) {
+    var border = "====";
+    var formattedName = border + " " + playerName + " " + border;
+    var borderedName = "\n|\n| " + playerName + "\n|\n";
+    return formattedName + borderedName;
+};
+
+console.log(getPlayerName("Kandra"));
+console.log(getPlayerName("Kiki"));
+console.log(getPlayerName("Mahesha"));
+console.log(getPlayerName("Jahver"));
