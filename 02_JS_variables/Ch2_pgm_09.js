@@ -27,3 +27,13 @@ var yield;
  *    See how the errors change.
  *
  */
+
+
+var thisIsFine;
+var $noProblemHere;
+var _underscore56;
+var StartWithCapital;
+var z5;
+
+
+var yield;
