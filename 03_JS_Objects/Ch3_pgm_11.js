@@ -27,3 +27,16 @@ console.log(player1.name + " has scored " + player1.score);
  *    their names.
  *
  */
+
+var player1;
+
+player1 = {
+	  name: "Max",
+	  score: 10
+};
+
+console.log(player1.name + " has scored " + player1.score);
+
+player1.score = player1.score + 50;
+
+console.log(player1.name + " has scored " + player1.score);
