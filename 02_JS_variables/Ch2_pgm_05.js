@@ -25,3 +25,16 @@ console.log(message);
  *    Be careful to use matching speech marks.
  *
  */
+
+
+var message;
+
+message = "Hello World!";
+console.log(message);
+
+// Splitting the second message into three pieces
+message = 'Congratulations' + '! ' + 'Your tweet has won a prize...';
+console.log(message);
+
+message = "This is the third message.";
+console.log(message);
