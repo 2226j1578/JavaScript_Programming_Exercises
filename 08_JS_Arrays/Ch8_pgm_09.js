@@ -27,3 +27,19 @@ players.forEach(showArguments);
  *    parameter.
  *
  */
+
+
+// Using the arguments passed by forEach
+
+var players;
+var showArguments;
+
+players = ["Dax", "Jahver", "Kandra", "Arin", "Mila"];
+
+showArguments = function (item, index, wholeArray) {
+  console.log("Item: " + item);
+  console.log("Index: " + index);
+  console.log("Array: " + wholeArray);
+};
+
+players.forEach(showArguments);
