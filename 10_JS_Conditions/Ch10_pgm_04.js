@@ -36,3 +36,40 @@ var getGuesser = function () {
    *      between(100, 200)  // 100 <= whole number <= 200
    *
    */
+
+// Guess the random number
+
+var getGuesser = function () {
+    var secret = Math.floor(Math.random() * 10 + 1);
+  
+    return function (userNumber) {
+      if (userNumber === secret) {
+        return "Well done!";
+      } else {
+        return "Unlucky, try again.";
+      }
+    };
+  };
+  
+  var guess = getGuesser();
+  
+  var between = function (min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
+
+var getGuesser = function () {
+    var secret = between(30, 50);
+  
+    return function (userNumber) {
+      if (userNumber === secret) {
+        return "Well done!";
+      } else {
+        return "Unlucky, try again.";
+      }
+    };
+};
+
+var guess = getGuesser();
+
+console.log(guess(35));  
+console.log(guess(42)); 
