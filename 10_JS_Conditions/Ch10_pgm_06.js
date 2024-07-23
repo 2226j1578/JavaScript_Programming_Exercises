@@ -47,3 +47,24 @@ var getGuesser = function () {
    *    greater than or equal to the value of offset.
    *
    */
+
+// A neater else-if block
+
+var getGuesser = function () {
+    var secret = Math.floor(Math.random() * 10 + 1);
+  
+    return function (userNumber) {
+      if (userNumber === secret) {
+        return "Well done!";
+      } else if (userNumber > secret) {
+        return "Too high!";
+      } else {
+        return "Too low!";
+      }
+    };
+  };
+  
+  var guess = getGuesser(20,10);
+  
+  console.log(guess(15));  
+  console.log(guess(25));  
