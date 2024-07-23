@@ -30,3 +30,22 @@ items.forEach(function (item) {
  * console prompt to show previous commands used.
  *
  */
+
+
+// Calling forEach with an inline function
+
+var items = [ "The Pyramids", "The Grand Canyon", "Bondi Beach" ];
+
+console.log("Dream destinations:");
+
+items.forEach(function (item) {
+	console.log(" – " + item);
+});
+
+
+items.push("Eiffel Tower");
+items.push("Statue of Liberty");
+
+// Remove an item
+items.pop();
+
