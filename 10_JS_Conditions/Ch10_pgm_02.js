@@ -30,3 +30,28 @@ var guess = function (userNumber) {
  * 4) Change the messages to fit the new condition.
  *
  */
+
+// Guess the number - the else clause
+
+var secret = 8;
+
+var guess = function (userNumber) {
+  if (userNumber === secret) {
+    console.log("Well done!");
+  } else {
+    console.log("Unlucky, try again.");
+  }
+};
+
+var secret = 8;
+
+var guess = function (userNumber) {
+  if (userNumber !== secret) {
+    console.log("Unlucky, try again.");
+  } else {
+    console.log("Well done!");
+  }
+};
+
+guess(2); 
+guess(8); 
